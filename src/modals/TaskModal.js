@@ -64,10 +64,10 @@ function TaskModal({ taskIndex, colIndex, setIsTaskModalOpen }) {
     setIsElipsisMenuOpen(false);
   };
 
-  const setOpenDeleteModal = () => {
-    setIsElipsisMenuOpen(false);
-    setIsDeleteModalOpen(true);
-  };
+  // const setOpenDeleteModal = () => {
+  //   setIsElipsisMenuOpen(false);
+  //   setIsDeleteModalOpen(true);
+  // };
 
   return (
     <div
